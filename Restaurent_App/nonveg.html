@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Victoria's Food Court</title>
+</head>
+<body>
+
+
+    <!-- Heading -->
+    <div class="container-fluid bg-dark text-white text-center p-3  mb-3">
+        <div class="row">
+        <div class="col-sm-6 float-start border-radius ">
+            <h1><marquee><img src="logo.png" alt="" width="50" height="50">
+                &nbsp;  Victoria's Food Court</marquee></h1>  
+        </div>
+        <div class="col-sm-6 float-end" id="landingbtn">
+            <button type="submit" value="Book Table">Book Table</button>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- Navigation -->
+    <div class="container-fluid" id="navi">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <div class="dropdown">
+                <a class="dropbtn">Food</a>
+                <div class="dropdown-content">
+                        <a href="veg.html">Veg Items</a>
+                        <a href="nonveg.html">Non Veg Items</a>
+                        <a href="beverages.html">Beverages</a>
+                      </div>
+                </div></a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+<br><br><br>
+
+
+
+
+<!-- Nonveg Items -->
+<div class="container">
+    <h1 class="text-center text-white">NonVeg Items</h1><br>
+    <div class="container">
+        <p class=" text-center" style="color: bisque;">Non-vegetarian food (in Indian English sometimes shortened to non-veg food) contains meat (red meat, poultry, seafood, or the flesh of any other animal), and sometimes, eggs. The term is common in India, but not usual elsewhere. In the generally vegetarian environment of India, restaurants offering meat and fish usually have a "non-vegetarian" section of their menu, and may include the term (typically as "Veg and Non-veg") in their name-boards and advertising. When describing people, non-vegetarians eat meat and/or eggs, as opposed to vegetarians. But in India, consumption of dairy foods is usual for both groups.
+
+            The diet, non-vegetarianism is the majority human diet in the world (including India)Non-vegetarians are also called omnivores in nutritional science.
+            </p><br>
+    </div>
+    <div class="row bg-dark mb-5">
+        <div class="col-lg-4" id="a1">
+            <div class="card p-2" style="width: 100%; background-color: rgb(48, 52, 50);">
+               <a href=""> <img src="cg.jfif" class="card-img-top" alt="" width="100" height="200"/>
+            </a>
+                <div class="card-body">
+                    <h3 class="card-title text-center text-white">Chicken Biryani</h3><center>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Click Here</button>
+                            <div class="modal modal-lg" id="myModal">
+                                <div class="modal-dialog" style="width: 30%; height: 5px;">
+                                    <div class="modal-content" style="background-color: rgb(218, 214, 217); color: black;"> 
+                                        <img src="cg.jfif" width="100%" height="200px"/>
+                                        
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Chicken Biryani</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                       
+                                        <div class="modal-footer">
+                                            <div class="modal-body">
+                                                <p><strong>Price: $50</strong> </p>
+                                                <p><strong>Description:  Chicken Biryani is a savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together.</strong> </p>
+                                                <p><strong>Category: Non Veg Item</strong> </span></p>
+                                              </div>
+                                        </div>
+                                    </div>
+                                </div></center>  
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card p-2 " style="width: 100%; background-color: rgb(44, 48, 47);">
+               <a href="" ><img src="mg.jfif" class="card-img-top" alt="" height="200"/></a>
+                <div class="card-body">
+                    <h3 class="card-title text-center text-white">Mutton Roga dosh</h3><center>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal1">Click Here</button>
+                            <div class="modal modal-lg" id="myModal1">
+                                <div class="modal-dialog" style="width: 30%; height: 5px;">
+                                    <div class="modal-content" style="background-color: rgb(203, 213, 213); color: black;"> 
+                                        <img src="mg.jfif" width="100%" height="200px"/>
+
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Mutton Roga dosh</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                       
+                                        <div class="modal-footer">
+                                            <div class="modal-body">
+                                                <p><strong>Price: $200</strong> </p>
+                                                <p><strong>Description: Rogan josh consists of pieces of lamb or mutton braised with a gravy flavoured with garlic, ginger and aromatic spices (clove, bay leaves, cardamom, and cinnamon), and in some versions incorporating onions or yoghurt. </strong> </p>
+                                                <p><strong>Category: Non Veg Item</strong> </span></p>
+                                              </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div></center>  
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card p-2 " style="width: 100%; background-color: rgb(46, 48, 48);">
+               <a href="" ><img src="fishhh.jfif" class="card-img-top" alt="" height="200"/></a>
+                <div class="card-body text-center">
+                    <h3 class="card-title text-white">Fish Fry</h3>
+                   
+                    <center>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal2">Click Here</button>
+                                <div class="modal modal-lg" id="myModal2">
+                                    <div class="modal-dialog" style="width: 30%; height: 5px;">
+                                        <div class="modal-content" style="background-color: rgb(206, 205, 195); color: black;"> 
+                                        <img src="fishhh.jfif" width="100%" height="200px"/>
+
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Fish Fry</h4>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                            </div>
+                                           
+                                            <div class="modal-footer">
+                                                <div class="modal-body">
+                                                    <p><strong>Price: $100</strong> </p>
+                                                <p><strong>Description: A fish fry is a meal containing battered or breaded fried fish.</strong> </p>
+                                                <p><strong>Category: Non Veg Item</strong> </span></p>
+                                                  </div></button>
+                                             </div>
+                                        </div>
+</div></center>  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+    
+
+
+
+
+
+    <!-- Footer Page -->
+<footer class="container-fluid p-3 text-center text-white" style="background-color: black;">
+    <p>CopyRights  @  <a href="www.google.com">Google Here</a></p>
+      <h6 class="text-white text-center">Follow us on</h6>
+      <div class="footer">
+        <a href="" class="me-4 text-reset">
+          <i class="fa fa-facebook" style="color: #fefefe;"></i></a>
+        <a href="" class="me-4 text-reset">
+          <i class="fa fa-twitter" style="color: white;"></i></a>
+        <a href="" class="me-4 text-reset">
+          <i class="fa fa-google" style="color: white;"></i></a>
+        <a href="" class="me-4 text-reset">
+          <i class="fa fa-instagram" style="color: white;"></i></a>
+        <a href="" class="me-4 text-reset">
+          <i class="fa fa-linkedin" style="color: white;"></i></a>
+        <a href="" class="me-4 text-reset">
+          <i class="fa fa-github" style="color: white;"></i></a>
+      </div>
+  </footer>
+</body>
+</html>
